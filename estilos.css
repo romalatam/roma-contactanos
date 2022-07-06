@@ -83,20 +83,7 @@ body{
 	text-family: "Trebuchet MS";
 }
 
-#nina {
-	display: block;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	background: #b3cefd;
-	width: 100%;
-	text-align: center;
-	margin: 0%;
-	text-family: "Trebuchet MS";
-	color: white;
-	text-decoration: none;
-}
-
-#sobrenosotros {
+#contactanos {
 	display: block;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -108,25 +95,12 @@ body{
     margin-top: 20px;
 }
 
-#sobrenosotras {
+#contacto {
 	margin: 30%;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	color: #7d7d7d;
 }
-
-h3 {
-	font-size: 48px;
-	color: white;
-	
-}
-
-.mivision {
-	font-size: 20px;
-	color: white;
-}
-
-
 /* RESPONSIVE */
 
 @media screen and (max-width: 2000px){
@@ -171,7 +145,7 @@ h3 {
 	.divsample {
 		margin: 0.15%;
 	}
-	#sobrenosotras {
+	#contacto {
 		margin: 10%;
 	}
 
