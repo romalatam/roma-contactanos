@@ -63,6 +63,7 @@ body{
 
 .icons {
 	width:5%;
+	display: inline-block;
 }
 
 .texto {
