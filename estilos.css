@@ -61,6 +61,14 @@ body{
 	width:5%;
 }
 
+.icons {
+	width:5%;
+}
+
+.texto {
+	color: #7d7d7d;
+}
+
 .divsample {
 	display:inline-block;
 	padding-top: 15px;
