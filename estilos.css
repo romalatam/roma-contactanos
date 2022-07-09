@@ -43,8 +43,8 @@ a {text-decoration: none;}
 
 .titulo {
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
 	}
 #roma {
 	display: inline-block;
@@ -89,6 +89,7 @@ a {text-decoration: none;}
 	width: 48.76%;
 	text-align: center;
 	margin: 0.5%;
+	margin-top: 0&;
 	text-family: "Trebuchet MS";
 }
 
@@ -108,8 +109,8 @@ a {text-decoration: none;}
 
 .divpink {
 	display: block;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-bottom: 0px;
     background: #FFBCAD;
     width: 100%;
