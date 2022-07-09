@@ -64,7 +64,7 @@ a {text-decoration: none;}
 }
 
 .icons {
-	width:5%;
+	width:4.5%;
 	display: inline-block;
 }
 
@@ -78,12 +78,13 @@ a {text-decoration: none;}
 	display: flex;
   	align-items: center;
 	justify-content: center;
+	margin: 8px;
 }
 
 .divsample {
 	display:inline-block;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background: #b3cefd;
 	width: 48.76%;
 	text-align: center;
