@@ -36,6 +36,7 @@ a {text-decoration: none;}
 .icons {
 	width:4.5%;
 	display: inline-block;
+	margin-right: 5px;
 }
 
 .texto {
