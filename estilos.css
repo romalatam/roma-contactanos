@@ -11,40 +11,10 @@ body{
 
 a {text-decoration: none;}
 
-.category_list{
-	display: flex;
-	flex-direction: column;
-	width: 18%;
-}
-
-.category_list .category_item{
-	display: block;
-	width: 90%;
-	padding: 15px;
-	margin-bottom: 20px;
-	background: #B3CEFD;
-
-	text-align: center;
-	text-decoration: none;
-	color: rgb(255, 255, 255);
-	border-radius: 10px;
-}
-
-.category_list .ct_item-active{
-	background: #FFB09F;
-}
-
-
-
-
-
-
-
-
 .titulo {
 	text-align: center;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	}
 #roma {
 	display: inline-block;
@@ -83,28 +53,40 @@ a {text-decoration: none;}
 
 .divsample {
 	display:inline-block;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	background: #b3cefd;
-	width: 48.76%;
+	width: 19%;
 	text-align: center;
 	margin: 0.5%;
-	margin-top: 0&;
-	text-family: "Trebuchet MS";
+	margin-right: 0;
+	font-family: "Trebuchet MS";
 }
 
-
+.div3 {
+	display:inline-block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: #b3cefd;
+	width: 19%;
+	text-align: center;
+	margin: 0.5%;
+	margin-right: 0;
+	font-family: "Trebuchet MS";
+}
 
 .azul {
-	margin: 2%;
-	margin-bottom: 0%;
+	margin: 1.5%;
+	margin-bottom: 3%;
 	margin-top: 0%;
 }
+
 .info {
 	color: white;
 	text-align: center;
 	text-decoration: none;
-	text-family: "Trebuchet MS";
+	font-family: "Trebuchet MS";
+	font-size: 17px;
 }
 
 .divpink {
@@ -121,31 +103,9 @@ a {text-decoration: none;}
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 2000px){
-	.category_list{
-		width: 60%;
-		margin-left: 20%;
-	}
-
-	.category_list{
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-	.category_list .category_item{
-		align-self: flex-start;
-		width: 32%;
-		font-size: 14px;
-	}
-}
-
 @media screen and (max-width: 700px){
-	.category_list{
-		flex-direction: column;
-	}
-	.category_list .category_item{
-		width: 100%;
-		margin-bottom: 10px;
+	.icons {
+		width:10%;
 	}
 }
 
@@ -162,6 +122,17 @@ a {text-decoration: none;}
 	}
 	.divsample {
 		margin: 0.15%;
+		width: 48.76%;
+		padding-top: 10px;
+	}
+	.div3 {
+		margin: 0.15%;
+		margin-top: 3px;
+		width: 32%;
+		font-size: 15px;
+	}
+	.info {font-size: 12px;}
+	
 	}
 	#contacto {
 		margin: 10%;
